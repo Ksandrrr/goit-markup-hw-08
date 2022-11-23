@@ -8,12 +8,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  width: 334px;
-  @media screen and (min-width: 500px) {
-      justify-content: center;
-      width: auto;
+  @media screen and (max-width: 660px) {
+    max-width: 334px;
     }
-  @media screen and (min-width: 614px) {
+ 
+ 
+  @media screen and (min-width: 661px) {
     justify-content: center;
     }
 }

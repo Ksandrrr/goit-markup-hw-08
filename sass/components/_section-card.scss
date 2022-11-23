@@ -49,6 +49,9 @@
   &:nth-last-child(-n + 3) {
     margin-bottom: 0;
   }
+  @media screen and (max-width: 479px) {
+   width: 280px;
+  }
   @media screen and (min-width: 768px) {
     width: 354px;
   }
