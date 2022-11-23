@@ -1,9 +1,9 @@
 .footer {
   text-align: center;
-  // display: flex;
+
   padding-top: 60px;
   padding-bottom: 60px;
-  // gap: 70px;
+
   @media screen and (min-width: 768px) {
       display: flex;
       justify-content: space-between;
@@ -64,4 +64,7 @@ margin-top: 20px;
       margin-bottom: 60px;
     }
   
+}
+.header-logo.footer {
+  padding: 0;
 }

@@ -93,16 +93,19 @@
 .call-form__custom {
   position: relative;
   padding-left: 25px;
+
+  
 }
 
 .custom-checkbox {
   position: absolute;
-  left: 0;
+  left: 0px;
   display: inline-block;
   width: 16px;
   height: 15px;
   border: 2px solid var(--main-text-color);
   border-radius: 2px;
+
 }
 
 .call-form-checkbox:checked + .custom-checkbox {
@@ -114,8 +117,16 @@
   border: none;
 }
 
+
 .call-form__text {
+  font-size: 8px;
   color: #757575;
+  @media screen and (min-width: 480px) {
+    font-size: 12px;
+  }
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+    }
 }
 
 .call-form-link {
