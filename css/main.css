@@ -464,7 +464,7 @@ p {
 }
 
 .footer-input {
-  width: 450px;
+  width: 100%;
   height: 50px;
   padding-left: 16px;
   border: none;
@@ -473,12 +473,7 @@ p {
   border-radius: 4px;
   outline: 1px solid rgba(255, 255, 255, 0.3);
 }
-@media screen and (max-width: 479px) {
-  .footer-input {
-    width: 250px;
-  }
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   .footer-input {
     width: 450px;
   }
